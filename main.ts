@@ -6,7 +6,7 @@ basic.pause(200)
 basic.forever(function () {
     if (pins.analogReadPin(AnalogPin.P1) >= No_Sound) {
         colorbit_51bit.showBarGraph(pins.analogReadPin(AnalogPin.P1), 255)
-        basic.pause(500)
+        basic.pause(200)
     } else {
         colorbit_51bit.clear()
     }
